@@ -1,0 +1,317 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+margin:0;
+padding:0;
+background:#339999;
+
+}
+/*#f1
+{
+background:url(4.jpg) repeat-x 0 0;
+}*/
+
+
+#outer
+{
+    border: solid 2px #003333;
+position:relative;
+padding:0px;
+width:1024px;
+margin:auto;
+background:#f1f3da/*#ffffff*/;
+text-align:left;
+}
+
+#header
+{
+width:1024px;
+height:107px;
+padding:0;
+margin:0;
+background:url(layout/header.jpg);
+}
+
+
+#nav
+{
+postion:relative;
+width:1024px;
+height:67px;
+margin:0 0 0 0;
+background:#003333 url(layout/nav.jpg) repeat-x 0 0;
+
+}
+
+#nav ul
+{
+font-weight:bold;
+font-family:Verdana, Arial;
+font-size:100%;
+postion:relative;
+padding:22px 0px 22px 0px;
+margin:0 0 0 0;
+list-style: none;
+text-align:center;
+}
+
+#nav ul li
+{
+display:inline;
+
+}
+#nav ul li a
+{padding:15px 15px 25px 20px ;
+
+text-decoration:none;
+color:#ffffff;
+}
+
+#nav ul li a:hover{
+/*background:#800080;*/
+color: #EAB246;
+text-decoration: underline;
+}
+
+#nav ul div
+{
+position:absolute;
+margin:0;
+padding:0;
+top:163px;
+opacity:0.95;
+border:none;
+}
+
+#nav ul #dept
+{
+left:495px;
+z-index:17;
+width:230px;
+}
+#nav ul #about
+{
+left:15px;
+z-index:15;
+width:150px;
+
+}
+#nav ul div a
+	{
+		position:relative;
+		height:25px;
+		display:block;
+		background:#7cc115;
+		color:#000000;
+		text-decoration:none;
+		margin:0;
+		font-size:95%;
+		vertical-align:middle;
+		padding:10px 10px 5px 10px;
+	}
+
+#nav ul div a:hover
+	{
+		background:#353a33;
+                color: #EAB246;
+        }
+#main
+{
+border:thick;
+/*background:#f1f3da*/
+clear:right;
+}
+
+#mainbody
+{
+
+font-family:Verdana;
+min-height:350px;
+font-size:75%;
+color:#353a33;
+border:thick;
+padding:20px 20px 20px 60px;
+margin:20px 0px 20px 0;
+width:710px;
+float:left;
+/*background:#f1f3da*/
+}
+#mainbody h1
+{
+font-size:22px;
+margin:40px 0px 0px 10px;
+color:#868a7b;
+}
+#mainbody h2
+{
+font-size:15px;
+}
+#mainbody hr
+{
+color: #003333 ;/*#db0f00; oof */
+background-color: #003333; /*#db0f00; */
+height: 3px;
+border:none;
+
+}
+#mainbody p
+{
+line-height:1.5;
+padding:10px 0 0 5px;  /* check here */
+text-align:justify;
+}
+#mainbody img
+{
+float:left;
+padding:10px 15px 10px 10px;
+border:#868a7b;	
+}
+#mainbody label
+{
+color:#FF0000;
+}
+#mainbody ul
+{
+line-height:1.5;
+margin:0 0 0 5px;
+padding:0 10px 0 0;
+text-align:justify;
+}
+
+
+#images 
+{
+	text-align:left;
+}
+
+#images hr
+{
+color: #003333 ;/*#db0f00;*/
+background-color: #003333 ; /*#db0f00; */
+height: 3px;
+border:none;
+
+}
+#images .img_head
+{
+font-size:16px;
+margin:10px 0px 0px 10px;
+color:#868a7b;
+text-align:justify;
+}
+
+#images ul li
+{
+display:inline;
+}
+
+#images img
+{
+ float :left;
+ padding:10px 15px 10px 10px;
+ width:30px;
+ height:30px;
+ border:#868a7b;
+}
+
+#register
+{
+  height:40px;
+/*background: url(layout/topside.png) no-repeat;*/
+
+padding:15px 0 0 0;
+
+font-weight:bold;
+font-size:14px;
+text-align:center;
+
+}
+#reg_outer
+{
+border: 2px solid /*#000000;*/ #f0c40f;
+}
+	
+#sidebar
+{
+font-family:Verdana;
+font-size:75%;
+color:/*#000000;*/ #353a33
+border:thick;
+/*margin:70px 10px 10px 0;*/
+width:200px;
+float:right;
+background:#ffffff;
+}
+
+.login
+{
+  border: 2px solid #003333;
+  
+}
+
+#sidebar .top
+{
+height:40px;
+/*background: url(layout/topside.png) no-repeat;*/
+background:#006666;/*#4169e1*/
+padding:15px 0 0 0;
+color:#e9967a;
+font-weight:bold;
+font-size:14px;
+text-align:center;
+}
+
+#sidebar .middle
+{
+text-align:left;
+color:#000000;
+font-size:12px;
+text-align:left;
+padding:10px;
+}
+
+#sidebar middle ul
+{
+margin:0 10px 0 0;
+padding:10px 10px 10px 15px;
+}
+
+#sidebar .bottom
+{
+background:/*url(layout/bottomside.png) no-repeat;*/#000000;
+height:31px;
+padding:0 0 20px 0;
+}
+
+#button{
+	/*width:109px;*/
+	height:27px;
+	/*padding:5px;
+	background:#f00;*/
+	border:none;
+	font:100% Arial;
+	font-weight:bold;
+	color:#ffffff;
+	text-align:center;
+}
+
+#button:hover{
+	color:#4161e1; /* #CC0000; */
+}
+
+
+
+
+#footer
+{
+clear:both;
+padding:22px 0 0 0 ;
+margin:0;
+color:#ffffff;
+font-family:Verdana;
+font-size:80%;
+text-align:center;
+height:50px;
+background:#f0c40f ; /*#3b3531; */
+}

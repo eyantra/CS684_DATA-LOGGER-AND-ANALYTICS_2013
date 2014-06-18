@@ -1,0 +1,23 @@
+SMAP
+temperature_005fdetails_jsp.java
+JSP
+*S JSP
+*F
++ 0 temperature_details.jsp
+temperature_details.jsp
+*L
+1,4:53
+4,7:12
+10,2:56
+14,6:60
+19,93:66
+112:159,3
+113:162
+114,4:163,3
+118,2:175
+119,2:177
+120:179,3
+121,9:182
+130:191,3
+131,49:194
+*E
